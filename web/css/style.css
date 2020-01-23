@@ -1,0 +1,585 @@
+/* Estilos Gerais */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Georgia, "Times New Roman", Serif;
+    font-size: 14px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.subtitulo {
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #594E47;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-bottom: 55px;
+}
+
+.subtitulo:after {
+    content: "";
+    display: block;
+    width: 78px;
+    height: 3px;
+    background: #594E47;
+    margin: 10px auto;
+}
+
+.btn {
+    background: #594E47;
+    color: #F2EFEB;
+    padding: 10px 33px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background: #F2EFEB;
+    color: #594E47;
+}
+
+
+/* Header */
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #A69C94;
+    padding: 10px 0;
+    z-index: 10;
+}
+
+.header_menu {
+    text-align: right;
+}
+
+.header_menu ul li {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+
+.header_menu ul li a {
+    color: #594E47;
+    font-size: 18px;
+    letter-spacing: .1em;
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+    color: white;
+}
+
+.header_menu ul li a.menu-ativo {
+    color: white;
+}
+
+
+/* Home */
+
+
+.introducao {
+    width: 100%;
+    height: 300px;
+    background: url("../img/home/bg-home.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: 82px;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.introducao h1 {
+    font-family: Arial;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.introducao h1:after {
+    content: "";
+    display: block;
+    width: 78px;
+    height: 3px;
+    background: white;
+    margin: 10px auto;
+}
+
+.pos_introducao {
+    width: 100%;
+    height: 530px;
+    background: url("../img/home/bg-home-intro.svg") no-repeat center;
+    background-size: cover;
+}
+
+
+.pos_introducao img {
+    padding-top: 78px;
+}
+
+.pos_introducao h1 {
+    font-family: Arial;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #594E47;
+    text-align: center;
+    padding-top: 187px;
+}
+
+.pos_introducao h1:after {
+    content: "";
+    display: block;
+    width: 78px;
+    height: 3px;
+    background: #594E47;
+    margin: 25px 0 0 85px;
+}
+
+.pos_introducao p {
+    font-family: Georgia;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 25px;
+    color: #594E47;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.especialidades {
+    padding: 40px 0px 60px 0px;
+    background: #F2EFEB;
+}
+
+.lista-itens li {
+    background: #D9D0C7;
+    text-align: center;
+}
+
+.lista-itens li h3 {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: #594E47;
+    text-transform: uppercase;
+    padding: 50px 0px 40px 0px;
+    line-height: 25px;
+}
+
+.lista-itens li h3:after {
+    content: "";
+    display: block;
+    width: 78px;
+    height: 3px;
+    background: #594E47;
+    margin: 10px auto;
+}
+
+.call {
+    text-align: center;
+    padding-top: 40px;
+    clear: both;
+}
+
+
+.servicos {
+    padding: 47px 0px 60px 0px;
+}
+
+.servicos ul li, .especialidades ul li {
+    box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.3);
+}
+
+.lista-itens-servicos li {
+    background: #A69C94;
+    text-align: center;
+}
+
+.lista-itens-servicos li h3 {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: #594E47;
+    text-transform: uppercase;
+    padding: 50px 0px 40px 0px;
+    line-height: 25px;
+}
+
+.lista-itens-servicos li h3:after {
+    content: "";
+    display: block;
+    width: 78px;
+    height: 3px;
+    background: #594E47;
+    margin: 10px auto;
+}
+
+
+/* Sobre */
+
+
+.introducao_sobre {
+    width: 100%;
+    height: 160px;
+    background: url("../img/sobre/bg-sobre.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: 126px;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.introducao_sobre h1 {
+    font-family: Arial;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: .1em;
+}
+
+.introducao_sobre h1:after {
+    content: "";
+    display: block;
+    width: 78px;
+    height: 3px;
+    background: white;
+    margin: 10px auto;
+}
+
+
+.descricao_sobre h1 {
+    padding-top: 120px;
+}
+
+
+.descricao_sobre p {
+    font-style: normal;
+    text-align: left;
+    padding: 10px 0px 0px 40px;
+    max-width: 500px;
+}
+
+
+.advogados {
+    padding: 47px 0px 30px 0px;
+    background: white;
+}
+
+.img-adv li {
+    background: #FFFFFF;
+}
+
+.img-adv li h3 {
+    padding: 30px 0px 40px 0px;
+}
+
+
+.missaovisaovalores {
+    padding: 60px 0px 130px 0px;
+    background: #F2EFEB;
+}
+
+.missaovisaovalores li {
+    height: 300px;
+    background: #594E47;
+    padding: 50px 20px 30px 30px;
+}
+
+.missaovisaovalores p {
+    color: #F2EFEB;
+    font-family: Georgia;
+    font-style: italic;
+    line-height: 30px;
+    text-align: left;
+    font-size: 20px;
+}
+
+
+/* atuacao */
+
+
+.introducao_atuacao {
+    width: 100%;
+    height: 160px;
+    background: url("../img/atuacao/bg-atuacao.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: 126px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.introducao_atuacao h1 {
+    font-family: Arial;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: .1em;
+}
+
+.introducao_atuacao h1:after {
+    content: "";
+    display: block;
+    width: 78px;
+    height: 3px;
+    background: white;
+    margin: 10px auto;
+}
+
+
+.descricao_atuacao h1 {
+    padding-top: 120px;
+}
+
+
+.descricao_atuacao p {
+    font-style: normal;
+    text-align: left;
+    padding: 10px 0px 0px 40px;
+    max-width: 500px;
+}
+
+
+.areas_atuacao {
+    margin-top: 60px;
+}
+
+.areas_atuacao ul li {
+    background: #8C827D;
+    font-size: 20px;
+    font-family: Arial;
+    color: #FFFFFF;
+    padding: 7px 0px 10px 10px;
+}
+
+.areas_atuacao2 {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.areas_atuacao2 ul li {
+    background: #8C827D;
+    font-size: 20px;
+    font-family: Arial;
+    color: #FFFFFF;
+    padding: 12px 0px 11px 10px;
+}
+
+
+.servicos-prestados {
+    background: #F2EFEB;
+    padding: 60px 0px;
+}
+
+.servicos-prestados span {
+    font-style: italic;
+}
+
+.servicos-prestados ul li {
+    background: #594E47;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 15px 25px;
+}
+
+.servicos-prestados ul li:nth-child(odd) {
+    background: #5D524B;
+}
+
+
+
+/* Contato */
+
+.introducao_contato {
+    width: 100%;
+    height: 160px;
+    background: url("../img/contato/bg-contato.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: 126px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.introducao_contato h1 {
+    font-family: Arial;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: .1em;
+}
+
+.introducao_contato h1:after {
+    content: "";
+    display: block;
+    width: 78px;
+    height: 3px;
+    background: white;
+    margin: 10px auto;
+}
+
+
+.section-contato {
+    padding: 40px;
+}
+
+.form {
+    padding-right: 60px;
+}
+
+.form label {
+    display: block;
+    font-size: 18px;
+    font-family: Georgia;
+    color: #000;
+    line-height: 25px;
+    margin-bottom: 3px;
+}
+
+.form input {
+    display: block;
+    width: 100%;
+    background: #F2EFEB;
+    border: none;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    font-family: Georgia;
+    outline-color: #594E47;
+}
+
+.form textarea {
+    display: block;
+    width: 100%;
+    background: #F2EFEB;
+    border: none;
+    padding: 10px 10px;
+    margin-bottom: 25px;
+    font-family: Georgia;
+    outline-color: #594E47;
+}
+
+
+.dados-contato h3 {
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.dados-contato p {
+    font-size: 18px;
+    font-family: Arial;
+    color: #707070;
+    margin-bottom: 15px;
+}
+
+.dados-contato p:nth-of-type(3) {
+    margin-top: 50px;
+}
+
+.footer_redes_contato h3 {
+    margin-top: 50px;
+}
+
+.footer_redes_contato ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+
+/* Footer */
+
+
+.footer {
+    width: 100%;
+    background: #594E47;
+    padding: 20px 0px;
+}
+
+.footer h3 {
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    padding-bottom: 10px;
+}
+
+.footer_contato ul li, .footer_endereco ul li {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    padding: 3px 0px;
+}
+
+.footer_redes ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.copy {
+    width: 100%;
+    background: #484B4D;
+    padding: 15px 0;
+}
+
+.copy p {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 10px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+/* JAVASCRIPT */
+
+
+.js [data-slide] {
+    position: relative;
+}
+
+.js [data-slide] > * {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+}
+
+.js [data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: opacity 3000ms;
+}
+
+
+.js [data-anime] {
+    opacity: 0;
+}
+
+.js .fadeInDown {
+    transform: translate3d(0, -20px, 0);
+}
+
+
+.js .anime {
+    opacity: 1;
+    transform: none;
+    transition: opacity 800ms, transform 800ms;
+
+}

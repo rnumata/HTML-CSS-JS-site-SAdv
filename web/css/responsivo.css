@@ -1,0 +1,350 @@
+
+/* Responsivo tablet */
+
+@media only screen and (min-width: 788px) and  (max-width: 979px){
+
+	/* Estilos Gerais */
+
+	.subtitulo {
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+
+	/* Header */
+
+	.header {
+		position: relative;
+		padding-bottom: 20px;
+	}
+
+	.header img {
+		margin: 0 auto;
+	}
+
+	.header_menu {
+		text-align: center;
+	}
+
+	.header_menu ul li {
+		display: block;
+		margin-left: 0px;
+		margin-top: 25px;
+	}
+
+
+
+	/*	Home */
+
+	.introducao {
+		margin-top: 0px;
+		padding-top: 90px;
+	}
+
+	.introducao h1 {
+		font-size: 32px;
+	}
+
+	.pos_introducao {
+		height: 400px;
+	}
+
+	.pos_introducao img {
+		padding-top: 40px;
+	}
+
+	.pos_introducao h1 {
+		padding-top: 140px;
+		font-size: 38px;
+	}
+
+	.especialidades {
+		padding: 20px 0px 30px 0px;
+	}
+
+	.servicos {
+		padding: 20px 0px 30px 0px;
+	}
+
+
+
+	/* Sobre */
+
+	.introducao_sobre {
+		margin-top: 0px;
+		padding-top: 50px;
+	}
+
+	.introducao_sobre h1 {
+		font-size: 32px;
+	}
+
+	.descricao_sobre h1 {
+		padding-top: 40px;
+	}
+
+	.descricao_sobre p {
+		padding: 10px 0px 0px 10px;
+	}
+
+	.missaovisaovalores {
+		padding: 40px 0px 40px 0px;
+		background: #F2EFEB;
+	}
+
+	.missaovisaovalores li {
+		padding: 45px 20px 30px 30px;
+	}
+
+
+
+	/* Atuação */
+
+	.introducao_atuacao {
+		margin-top: 0px;
+		padding-top: 50px;
+	}
+
+	.introducao_atuacao h1 {
+		font-size: 32px;
+	}
+
+	.descricao_atuacao h1 {
+		padding-top: 40px;
+	}
+
+	.descricao_atuacao p {
+		padding: 10px 0px 0px 10px;
+	}
+
+	.areas_atuacao {
+		margin-top: 30px;
+	}
+
+	.areas_atuacao ul li {
+		font-size: 16px;
+		padding: 4px 0px 10px 7px;
+	}
+
+	.areas_atuacao2 {
+		margin-bottom: 40px;
+	}
+
+	.areas_atuacao2 ul li {
+		font-size: 16px;
+		padding: 8px 0px 10px 8px;
+	}
+
+	.servicos-prestados {
+		padding: 30px 0px;
+	}
+
+	.servicos-prestados ul li {
+		font-size: 18px;
+		padding: 15px 25px;
+	}
+
+
+
+
+	/* Contato	*/
+
+
+	.introducao_contato {
+		margin-top: 0px;
+		padding-top: 50px;
+	}
+
+	.introducao_contato h1 {
+		font-size: 32px;
+	}
+
+	.form {
+		padding-right: 10px;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Responsivo celular */
+
+@media only screen and (max-width: 787px) {
+
+	/* Estilos Gerais */
+
+
+	.subtitulo {
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+
+	.call {
+		padding-top: 25px;
+	}
+
+	/* Header */
+
+	.header {
+		position: relative;
+		padding-bottom: 0;
+	}
+
+	.header img {
+		margin: 0 auto;
+	}
+
+	.header_menu {
+		text-align: center;
+	}
+
+	.header_menu ul li {
+		display: block;
+		margin-left: 0px;
+		margin-top: 25px;
+	}
+
+
+	/* Introdução */
+
+	.introducao {
+		margin-top: 0;
+		padding-top: 35px;
+		background: url("../img/home/bg-home-mobile.jpg") no-repeat center;
+		height: 150px;
+	}
+
+	.introducao h1 {
+		font-size: 21px;
+	}
+
+	.pos_introducao {
+		height: 570px;
+	}
+
+	.pos_introducao img {
+		padding-top: 30px;
+	}
+
+	.pos_introducao h1 {
+		padding-top: 30px;
+		font-size: 32px;
+	}
+
+	.pos_introducao h1:after {
+		margin: 10px 0px 5px 55px;
+	}
+
+	.pos_introducao p {
+		font-size: 15px;
+		padding-top: 10px;
+	}
+
+	.especialidades {
+		padding: 20px 0px 30px 0px;
+	}
+
+	.servicos {
+		padding: 20px 0px 30px 0px;
+	}
+
+
+	/*	Sobre */
+
+	.introducao_sobre {
+		background: url("../img/sobre/bg-sobre-mobile.jpg") no-repeat center;
+		margin-top: 0;
+	}
+
+	.introducao_sobre h1 {
+		font-size: 30px;
+	}
+
+	.descricao_sobre h1 {
+		padding-top: 0px;
+	}
+
+	.descricao_sobre p {
+		padding: 10px 0px 0px 10px;
+	}
+
+	.advogados {
+		padding: 17px 0px 0px 0px;
+		background: white;
+	}
+
+	.missaovisaovalores {
+		padding: 30px 0px 20px 0px;
+	}
+
+	.missaovisaovalores li {
+		height: 200px;
+		padding: 25px 20px 20px 30px;
+	}
+
+
+	/*	Atuação */
+
+	.introducao_atuacao {
+		background: url("../img/atuacao/bg-atuacao-mobile.jpg") no-repeat center;
+		margin-top: 0px;
+	}
+
+	.introducao_atuacao h1 {
+		font-size: 30px;
+	}
+
+	.descricao_atuacao h1 {
+		padding-top: 0px;
+	}
+
+	.descricao_atuacao p {
+		padding: 10px 0px 0px 10px;
+	}
+
+	.areas_atuacao {
+		margin-top: 20px;
+	}
+
+	.areas_atuacao2 {
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+
+	.servicos-prestados {
+		background: #F2EFEB;
+		padding: 20px 0px;
+	}
+
+
+
+	/* Contato	*/
+
+	.introducao_contato {
+		background: url("../img/contato/bg-contato-mobile.jpg") no-repeat center;
+		margin-top: 0px;
+	}
+
+	.introducao_contato h1 {
+		font-size: 30px;
+	}
+
+	.section-contato {
+		padding: 20px;
+	}
+
+	.form {
+		padding-right: 0px;
+	}
+
+
+}
